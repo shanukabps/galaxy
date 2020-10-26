@@ -1,0 +1,25 @@
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.home_row {
+  width: 100vw;
+
+  display: flex;
+  z-index: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
+.home_image {
+  width: 100vw;
+  z-index: -1;
+  height: 40vh;
+  margin-bottom: -70px;
+  mask-image: linear-gradient(to top, transparent 10%, black 50%);
+
+}
