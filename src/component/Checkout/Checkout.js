@@ -21,6 +21,7 @@ function Checkout() {
                 <div className="checkout_title">
 
                     <h4>Hello,  {user?.email}  </h4>
+
                     {basket.map(item => (
                         <CheckoutProduct
                             id={item.id}
@@ -38,6 +39,7 @@ function Checkout() {
                 <Subtotal />
 
             </div>
+
         </div>
     )
 }
